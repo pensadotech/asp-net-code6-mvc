@@ -3,27 +3,37 @@
 
 The author recomends to start by  
 
-  * Configuring the application.
+  * Configuring the application (Nugets).
+
+      Nugets
+      Microsoft.AspNetCore.Identity.EntityFrameworkCore
+      Microsoft.AspNetCore.Identity.UI
+      Microsoft.EntityFrameworkCore.SqlServer
+      Microsoft.EntityFrameworkCore.Tools
+      Microsoft.VisualStudio.Web.CodeGeneration.Design
+
+      Do not add connection string yet into appsettings.json
+
 
 From there, continue with 
 
   * adding Models and a mock repository
   * This is, add a controller and a view.
   * Add a first page, using Models only. 
-    Even though the developer need to type the URL 
+    Test inital functionality, even though the developer needs to type the URL 
     for example: https://localhost:7275/Pie/List
   * Add a ViewModel and use it for the screen, instead of Models.
     
     NOTE: This example present a simple ideas, for more advance
           projects it is recomended to use a mapper tool ( e.g. AutoMapper).
 
-  * Work in showing the data first and work in the page style
+  * Work in showing the data first and then work in the page style
 
 As following steps in the approach, the instructore recomends
 
-  * to create teh database using EF, code first approach (is is teh only option now)
+  * to create teh database using EF, code first approach (it is teh only option now!)
   * Create the DB context using Model classes
-  * define the connection string
+  * define the connection string and set in the appsettings.json
   * use migration to generate the SQl code and update the DB ( see ReadMe_EF file)
 
 
@@ -38,7 +48,7 @@ The next recommended step is
  * By adding View Components
  * By adding Tag helpers
  * By adding forms using Model binding
- * in thi step teh instructire added a Razor page to demostrate that MVC pages 
+ * in this step teh instructire added a Razor page to demostrate that MVC pages 
    can be combiened in teh same project.
  
  The next step is to implement testing for the project, as it is critical
