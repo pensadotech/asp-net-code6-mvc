@@ -7,6 +7,32 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BethanysPieShop", "Bethanys
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BethanysPieShopTests", "..\BethanysPieShopTests\BethanysPieShopTests.csproj", "{D311EE99-2A7A-4F12-9129-62932A6C3343}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A0969AD5-B1F5-4236-B55D-D01B1A19E1CD}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\ReadMe\1.Intro.txt = ..\..\ReadMe\1.Intro.txt
+		..\..\ReadMe\2.StepsToBuild.txt = ..\..\ReadMe\2.StepsToBuild.txt
+		..\..\ReadMe\3.EF.txt = ..\..\ReadMe\3.EF.txt
+		..\..\ReadMe\4.ClientLSideLibraries.txt = ..\..\ReadMe\4.ClientLSideLibraries.txt
+		..\..\ReadMe\5.TagHelpers.txt = ..\..\ReadMe\5.TagHelpers.txt
+		..\..\ReadMe\6.ViewComponents.txt = ..\..\ReadMe\6.ViewComponents.txt
+		..\..\ReadMe\7.ReadMe_API.txt = ..\..\ReadMe\7.ReadMe_API.txt
+		..\..\ReadMe\8.ReadMe_Security.txt = ..\..\ReadMe\8.ReadMe_Security.txt
+		..\..\ReadMe\9.PublishToAzure.txt = ..\..\ReadMe\9.PublishToAzure.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReadMe", "ReadMe", "{570225E4-AF91-4750-AD87-9155A9D6B2D1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\ReadMe\1.Intro.txt = ..\..\ReadMe\1.Intro.txt
+		..\..\ReadMe\2.StepsToBuild.txt = ..\..\ReadMe\2.StepsToBuild.txt
+		..\..\ReadMe\3.EF.txt = ..\..\ReadMe\3.EF.txt
+		..\..\ReadMe\4.ClientLSideLibraries.txt = ..\..\ReadMe\4.ClientLSideLibraries.txt
+		..\..\ReadMe\5.TagHelpers.txt = ..\..\ReadMe\5.TagHelpers.txt
+		..\..\ReadMe\6.ViewComponents.txt = ..\..\ReadMe\6.ViewComponents.txt
+		..\..\ReadMe\7.ReadMe_API.txt = ..\..\ReadMe\7.ReadMe_API.txt
+		..\..\ReadMe\8.ReadMe_Security.txt = ..\..\ReadMe\8.ReadMe_Security.txt
+		..\..\ReadMe\9.PublishToAzure.txt = ..\..\ReadMe\9.PublishToAzure.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +50,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{570225E4-AF91-4750-AD87-9155A9D6B2D1} = {A0969AD5-B1F5-4236-B55D-D01B1A19E1CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {10B15467-CB40-4818-87C9-AE9256D2C2A6}
